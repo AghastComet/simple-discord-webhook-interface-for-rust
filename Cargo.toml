@@ -1,0 +1,8 @@
+[package]
+name = "simple_discord_webhook_interface"
+version = "0.1.0"
+authors = ["Sabrina Gibson"]
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.12.9", features = ["blocking", "json", "multipart"] }
